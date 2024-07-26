@@ -13,8 +13,8 @@ export class EditableStuff extends HTMLElement {
     }
 
     set elmElement(newValue) {
+        console.log("Getting new value in JS")
         if (newValue) {
-            console.log("Getting new value in JS")
             console.log(newValue)
         }
     }
